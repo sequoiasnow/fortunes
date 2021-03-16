@@ -1,0 +1,15 @@
+
+./Setup.hs,15
+main main1,2
+
+./app/Main.hs,237
+module Main Main1,2
+data Fortunes Fortunes19,20
+data Fortunes = FortunesFortunes19,20
+unTab unTab22,23
+fortune fortune28,29
+drawUi drawUi31,32
+appEvent appEvent41,42
+emphAttr emphAttr46,47
+app app49,50
+main main58,59
