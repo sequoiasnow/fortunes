@@ -26,6 +26,7 @@ source-repository head
 executable fortunes
   main-is: Main.hs
   other-modules:
+      Cursor
       Paths_fortunes
   hs-source-dirs:
       app
@@ -33,6 +34,7 @@ executable fortunes
   build-depends:
       base >=4.7 && <5
     , brick
+    , cursor
     , process
     , vty
   default-language: Haskell2010

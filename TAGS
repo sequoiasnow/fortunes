@@ -2,14 +2,27 @@
 ./Setup.hs,15
 main main1,2
 
-./app/Main.hs,237
+./app/Cursor.hs,318
+module Cursor Cursor2,3
+  { cursorPrevious cursorPrevious5,6
+  , cursorCurrent cursorCurrent6,7
+  , cursorNext cursorNext7,8
+  , cursorTmpEntry cursorTmpEntry8,9
+cursorCurrentEntry cursorCurrentEntry11,12
+mkCursor mkCursor15,16
+previousEntryOr previousEntryOr18,19
+nextEntryOrAdd nextEntryOrAdd23,24
+
+./app/Main.hs,281
 module Main Main1,2
-data Fortunes Fortunes19,20
-data Fortunes = FortunesFortunes19,20
-unTab unTab22,23
-fortune fortune28,29
-drawUi drawUi31,32
-appEvent appEvent41,42
-emphAttr emphAttr46,47
-app app49,50
-main main58,59
+data Fortunes Fortunes20,21
+data Fortunes = FortunesFortunes20,21
+unTab unTab24,25
+fortune fortune30,31
+drawUi drawUi33,34
+endMessage endMessage44,45
+appEvent appEvent47,48
+emphAttr emphAttr56,57
+app app59,60
+main main68,69
+(!(!!?)78,79
